@@ -9,5 +9,5 @@ can use too --build --remove-orphans
 2. docker-compose run --rm app sh -c "python manage.py makemigrations"
 
 ## 3. to see containsers images docker inside
-1. docker ps - to see images IMAGES_ID
-2. docker exec -it IMAGES_ID //bin/sh
+1. docker ps - to see images IMAGE_ID
+2. docker exec -it IMAGE_ID //bin/sh
